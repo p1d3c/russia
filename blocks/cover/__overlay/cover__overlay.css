@@ -1,0 +1,45 @@
+.cover__overlay {
+  background-color: rgba(42, 44, 47, .3);
+  color: white;
+  text-decoration: none;
+  z-index: 0;
+  max-width: 1184px;
+  min-height: 740px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover__overlay:hover {
+  background-color: rgba(42, 44, 47, .7);
+}
+
+@media screen and (max-width:1024px) {
+  .cover__overlay {
+    max-width: 1024px;
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .cover__overlay {
+    max-width: 768px;
+    min-height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .cover__overlay {
+    max-width: 320px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
