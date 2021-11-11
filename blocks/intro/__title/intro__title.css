@@ -1,5 +1,5 @@
 .intro__title {
-  width: 690px;
+  max-width: 690px;
   font-size: 54px;
   line-height: 58px;
   font-weight: 900;
@@ -13,6 +13,6 @@
     line-height: 35px;
     font-weight: 900;
     font-style: normal;
-    width: 288px;
+    max-width: 288px;
   }
 }

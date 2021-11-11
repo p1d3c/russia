@@ -3,8 +3,11 @@
   color: white;
   text-decoration: none;
   z-index: 0;
-  max-width: 1184px;
-  min-height: 740px;
+  /* width: 100%;
+  max-width: 1184px; */
+  position: absolute;
+  height: inherit;
+  width: inherit;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -17,15 +20,15 @@
 
 @media screen and (max-width:1024px) {
   .cover__overlay {
+    width: 100%;
     max-width: 1024px;
-    min-height: 640px;
   }
 }
 
 @media screen and (max-width:768px) {
   .cover__overlay {
+    width: 100%;
     max-width: 768px;
-    min-height: 480px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -35,8 +38,8 @@
 
 @media screen and (max-width:320px) {
   .cover__overlay {
+    width: 100%;
     max-width: 320px;
-    min-height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
