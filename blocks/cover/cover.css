@@ -2,8 +2,6 @@
   background-image: url(../../sprint-3-images/cover-trains.jpg);
   background-repeat: no-repeat;
   background-size: contain;
-  /* width: 100%;
-  max-width: 1280px; */
   height: calc(100vw * .625);
   width: 100%;
   margin: 0;

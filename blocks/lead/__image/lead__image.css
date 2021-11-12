@@ -1,25 +1,26 @@
 .lead__image {
   max-width: 984px;
-  height: 615px;
+  height: calc(100vw * .625);
+  max-height: 615px;
 }
 
 @media screen and (max-width: 1024px) {
   .lead__image {
     max-width: 928px;
-    height: 580px;
+    max-height: 580px;
   }
 }
 
 @media screen and (max-width:768px) {
   .lead__image {
     max-width: 768px;
-    height: 480px;
+    max-height: 480px;
   }
 }
 
 @media screen and (max-width:320px) {
   .lead__image {
     max-width: 320px;
-    height: 200px;
+    max-height: 200px;
   }
 }

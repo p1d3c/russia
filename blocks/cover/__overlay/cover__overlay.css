@@ -3,9 +3,6 @@
   color: white;
   text-decoration: none;
   z-index: 0;
-  /* width: 100%;
-  max-width: 1184px; */
-  position: absolute;
   height: inherit;
   width: inherit;
   display: flex;
