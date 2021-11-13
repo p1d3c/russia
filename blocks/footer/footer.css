@@ -1,5 +1,5 @@
 .footer {
-  width: 90%;
+  width: 100%;
   max-width: 1184px;
   display: flex;
   flex-direction: row;
@@ -24,7 +24,6 @@
 @media screen and (max-width:320px) {
   .footer {
     max-width: 186px;
-    display: flex;
     flex-direction: column;
     justify-content: start;
     margin: 0 118px 0 16px;

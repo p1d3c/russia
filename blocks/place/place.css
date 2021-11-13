@@ -2,22 +2,34 @@
   display: grid;
   grid-template-areas:
   "title website"
-  "image paragraph"
-  ". paragraph";
+  "image paragraph";
   column-gap: 40px;
   row-gap: 48px;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(2, auto);
+  padding-bottom: 32px;
+}
+
+.place:last-of-type {
+  padding-bottom: 92px;
 }
 
 @media screen and (max-width:1024px) {
   .place {
     max-width: 928px;
+    column-gap: 32px;
   }
 }
 
 @media screen and (max-width:768px) {
   .place {
     max-width: 720px;
+    column-gap: 28px;
+    padding-bottom: 25px;
+  }
+
+  .place:last-of-type {
+    padding-bottom: 90px;
   }
 }
 
@@ -35,12 +47,9 @@
 @media screen and (max-width:320px) {
   .place {
     max-width: 320px;
-    grid-template-columns: 1fr;
-    grid-template-areas:
-    "title"
-    "website"
-    "image"
-    "paragraph";
     row-gap: 32px;
+  }
+  .place:last-of-type {
+    padding-bottom: 66px;
   }
 }

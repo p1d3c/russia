@@ -9,10 +9,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: background-color .2s ease;
 }
 
 .cover__overlay:hover {
-  background-color: rgba(42, 44, 47, .7);
+  background-color: rgba(42, 44, 47, .8);
 }
 
 @media screen and (max-width:1024px) {
@@ -24,22 +25,12 @@
 
 @media screen and (max-width:768px) {
   .cover__overlay {
-    width: 100%;
     max-width: 768px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
 }
 
 @media screen and (max-width:320px) {
   .cover__overlay {
-    width: 100%;
     max-width: 320px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
 }
