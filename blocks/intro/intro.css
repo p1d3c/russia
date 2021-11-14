@@ -20,7 +20,7 @@
   }
 }
 
-@media screen and (max-width:1047px) {
+@media screen and (max-width:1052px) {
   .intro {
     padding-left: 0;
     padding-right: 0;
@@ -35,7 +35,7 @@
   }
 }
 
-@media screen and (max-width:990px) {
+@media screen and (max-width:995px) {
   .intro {
     box-sizing: border-box;
   }
