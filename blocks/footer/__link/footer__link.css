@@ -13,12 +13,18 @@
   opacity: .8;
 }
 
+@media screen and (max-width:725px) {
+  .footer__link {
+    font-size: 24px;
+    line-height: 24px;
+    margin: 0 0 32px 0;
+    padding: 0;
+  }
+}
+
 @media screen and (max-width:320px) {
   .footer__link {
     max-width: 186px;
-    margin: 0 0 32px 0;
-    font-size: 24px;
-    line-height: 24px;
   }
 
   .footer__link:last-of-type {

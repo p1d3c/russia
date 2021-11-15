@@ -7,6 +7,12 @@
   margin: 0;
 }
 
+@media screen and (max-width:725px) {
+  .footer__copyright {
+    text-align: start;
+  }
+}
+
 @media screen and (max-width:320px) {
   .footer__copyright {
     max-width: 186px;
